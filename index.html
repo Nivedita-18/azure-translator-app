@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Translator UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <h1>🌍 Translator</h1>
+
+    <!-- API Inputs -->
+    <div class="api-box">
+        <input type="text" id="apiKey" placeholder="Azure API Key">
+        <input type="text" id="region" placeholder="Region">
+    </div>
+
+    <!-- Language Controls -->
+    <div class="controls">
+        <select id="fromLang">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="fr">French</option>
+        </select>
+
+        <button onclick="swapLang()">🔁</button>
+
+        <select id="toLang">
+            <option value="hi">Hindi</option>
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+        </select>
+    </div>
+
+    <!-- Translation Box -->
+    <div class="translator-box">
+
+        <textarea id="inputText" placeholder="Enter text"></textarea>
+
+        <div class="output-box" id="output">
+            Translation will appear here...
+        </div>
+
+    </div>
+
+    <button class="translate-btn" onclick="translateText()">Translate</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

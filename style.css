@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f5f5;
+}
+
+.app {
+    width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* API Box */
+.api-box input {
+    padding: 8px;
+    margin: 5px;
+    width: 45%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+select {
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/* Translator Box */
+.translator-box {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 50%;
+    height: 200px;
+    border: none;
+    padding: 15px;
+    resize: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.output-box {
+    width: 50%;
+    padding: 15px;
+    background: #fafafa;
+    border-left: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Button */
+.translate-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.translate-btn:hover {
+    background: #3367d6;
+}
